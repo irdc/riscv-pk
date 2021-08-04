@@ -4301,7 +4301,7 @@ $as_echo "#define RELAXED_ALIGNMENT 0" >>confdefs.h
 
 else
 
-   BBL_PAYLOAD=dummy_payload
+   BBL_PAYLOAD=dummy_payload.elf
 
 
 $as_echo "#define RELAXED_ALIGNMENT 1" >>confdefs.h

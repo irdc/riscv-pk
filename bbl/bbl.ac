@@ -11,7 +11,7 @@ AC_ARG_WITH([payload], AS_HELP_STRING([--with-payload], [Set ELF payload for bbl
    AC_SUBST([BBL_PAYLOAD], $with_payload, [Kernel payload for bbl])
    AC_DEFINE(RELAXED_ALIGNMENT,[0],[Use relaxed payload alignment])
   ], [
-   AC_SUBST([BBL_PAYLOAD], [dummy_payload], [Kernel payload for bbl])
+   AC_SUBST([BBL_PAYLOAD], [dummy_payload.elf], [Kernel payload for bbl])
    AC_DEFINE(RELAXED_ALIGNMENT,[1],[Use relaxed payload alignment])
   ])
 
